@@ -62,6 +62,7 @@ header {
     object-fit: contain;
 }
 
+
 /* Box shoes color */
 .red-box {
     background-color: red;
@@ -80,7 +81,7 @@ header {
 .container-shoes p {
     color: yellow;
     text-align: center;
-    font-size: 50px;
+    font-size: 6vh;
 }
 
 .yellow-box p {
