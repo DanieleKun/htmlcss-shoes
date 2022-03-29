@@ -9,6 +9,10 @@ body {
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #row-buttons::after {
     content: "";
     display: table;
