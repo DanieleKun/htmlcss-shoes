@@ -1,3 +1,4 @@
+/* General rules */
 * {
     margin: 0;
     padding: 0;
@@ -14,13 +15,18 @@ body {
     clear: both;
 }
 
+
+/* Right corner buttons */
 header {
     width: 100%;
     height: 100px;
     position: fixed;
     top: 0;
+    right: 0;
+    z-index: 500;
+
     /* Debug */
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .buttons {
@@ -34,3 +40,38 @@ header {
     padding: 5px;
 }
 
+
+.box {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.red-box {
+    background-color: red;
+}
+
+.green-box {
+    background-color: green;
+}
+
+.yellow-box{
+    background-color: yellow;
+}
+
+.container-shoes {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-shoes p {
+    color: yellow;
+    text-align: center;
+    font-size: 50px;
+}
+
+.yellow-box p {
+    color: green;
+}
